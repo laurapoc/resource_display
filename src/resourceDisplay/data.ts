@@ -1,4 +1,6 @@
-export const rawDataObject = [
+import { DataDto } from "./types";
+
+export const rawDataObject: DataDto[] = [
   {
     id: "1",
     level: 1,
@@ -86,7 +88,7 @@ export const rawDataObject = [
   },
 ];
 
-export const testDataWithTwoLevels = [
+export const testDataWithTwoLevels: DataDto[] = [
   {
     id: "1",
     level: 1,
